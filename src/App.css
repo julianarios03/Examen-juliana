@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+
+.App{
+  gap: 50px;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  font-family: 'JetBrains Mono', monospace;
+ background-color: antiquewhite;
+
+}
+.header{
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  padding: 10px;
+  top: 0px;
+  left: 0px;
+  gap: 15px;
+  width: 100vw;
+  height: 100px;
+ background-color: green
+}
+input{
+  font-family: 'JetBrains Mono', monospace;
+  color: black;
+  text-align: center;
+  width: 220px;
+  height: 30px;
+  background-color: black;
+  font-size: 14pt;
+  outline: none;
+  font-weight: 800;
+  border-radius: 5px;
+  margin: 5px;
+  border: transparent;
+}
+input::placeholder{
+  color:green;
+}
+
+form{
+display: flex;
+width: 100vw;
+flex-direction: column;
+gap: 15px;
+justify-content: center;
+align-items: center;
+}
+a{
+padding: 5px;
+padding-top: 15px;
+border-radius: 10px;}
+
+
+.main{
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+}
+.footer{
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  padding-top: 250px;
+ padding-right: 1600px;
+  
+}
+a{
+cursor: pointer;
+text-decoration:none;
+color: #000000;
+
+}
+

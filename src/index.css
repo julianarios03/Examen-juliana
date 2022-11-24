@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 26pt;
+    font-weight: 900;
+    padding-right: 100px;
+}
+
+a:hover {
+color: orange;
+}
+.titulo{
+ padding-top: 15px;
+ padding-right: 200px;
+}
