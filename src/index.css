@@ -1,15 +1,49 @@
 a {
     text-decoration: none;
-    color: black;
+    color:black;
     font-size: 26pt;
     font-weight: 900;
     padding-right: 100px;
 }
 
 a:hover {
-color: orange;
+color: yellow;
 }
 .titulo{
+    color: black;
  padding-top: 15px;
  padding-right: 200px;
 }
+
+.cliente {
+text-align: center;
+    width: 320px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    outline: none;
+  }
+  .cliente::placeholder {
+    color: black;
+    text-align: center;
+    font-size: 12pt;
+  }
+  .producto::placeholder {
+    color: black;
+    text-align: center;
+    font-size: 12pt;
+  }
+  .Proveedores::placeholder {
+    color: black;
+    text-align: center;
+    font-size: 12pt;
+  }
+
+  .titulo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding-left: 220px;
+  }

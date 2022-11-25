@@ -3,9 +3,9 @@ const Header= ()=> {
   
       <header className="header">
       <img className="header_img" src="./public/icono.svg" alt="" />
-      <h1 className="titulo">Maria Suculentas S.A.S</h1>
-      <a className="">Registro</a>
-      <a className="">Plantas</a>
+      <h1 className="">Maria Suculentas S.A.S</h1>
+      <a className="">Clientes</a>
+      <a className="">Productos</a>
       <a className="">Proveedores</a>
       </header>
     );

@@ -1,18 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
-
-
-.App{
+.App {
   gap: 50px;
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
   background-color: aqua;
-  font-family: 'JetBrains Mono', monospace;
- background-color: antiquewhite;
-
+  font-family: "JetBrains Mono", monospace;
+  background-color: antiquewhite;
 }
-.header{
+.header {
   display: flex;
   position: absolute;
   justify-content: space-around;
@@ -22,57 +20,101 @@
   gap: 15px;
   width: 100vw;
   height: 100px;
- background-color: green
-}
-input{
-  font-family: 'JetBrains Mono', monospace;
-  color: black;
-  text-align: center;
-  width: 220px;
-  height: 30px;
-  background-color: black;
-  font-size: 14pt;
-  outline: none;
-  font-weight: 800;
-  border-radius: 5px;
-  margin: 5px;
-  border: transparent;
-}
-input::placeholder{
-  color:green;
+  background-image: linear-gradient(
+    to right top,
+    #6bd184,
+    #5ec672,
+    #52bb60,
+    #45b04d,
+    #39a53a,
+    #329e33,
+    #2a972c,
+    #219024,
+    #1d8a29,
+    #1a852d,
+    #187f30,
+    #177933
+  );
 }
 
-form{
-display: flex;
-width: 100vw;
-flex-direction: column;
-gap: 15px;
-justify-content: center;
-align-items: center;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
-a{
-padding: 5px;
-padding-top: 15px;
-border-radius: 10px;}
+a {
+  padding: 5px;
+  padding-top: 15px;
+  border-radius: 10px;
+}
 
-
-.main{
+.main {
   display: flex;
   width: 100vw;
-  height: 50vh;
+  height: 150vh;
+
+  background-image: url(./components/fondo.jpg);
 }
-.footer{
+.footer {
   display: flex;
   width: 100vw;
-  height: 50vh;
+  height: 40vh;
   padding-top: 250px;
- padding-right: 1600px;
-  
+  padding-right: 1600px;
 }
-a{
-cursor: pointer;
-text-decoration:none;
-color: #000000;
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+}
+.formulariocli {
+  margin-top: 250px;
+  gap: 5px;
+  width: 50vw;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 
+.formulariopro {
+  margin-top: 250px;
+  gap: 5px;
+  width: 50vw;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.Proveedores {
+  text-align: center;
+  width: 320px;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  outline: none;
+}
+.formularioprove {
+  margin-top: 250px;
+  gap: 5px;
+  width: 50vw;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.producto{
+  text-align: center;
+  width: 320px;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  outline: none;
 }
 

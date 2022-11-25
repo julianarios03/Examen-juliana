@@ -1,14 +1,15 @@
+import Formulariocli from "../layout/Formulariocli";
+import Formulariopro from "../layout/Formulariopro";
+import Formularioprove from "../layout/Formularioprove";
 const Main =()=>{
 return(
-
-<section className="main">
-<form className="Registro" action="">
-<input className="Nombre" type="Nombre" />
-<input className="Email "type="Email" />
-<input  className="Telefono "type="Telefono" />
-</form>
+    <section className="main">
+<Formulariocli/>
+<Formulariopro/>
+<Formularioprove/>
 </section>
+
 );
 
-};
+};  
 export default Main
