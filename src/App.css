@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
 .App {
-  gap: 50px;
+ 
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 200vh;
+  height: 100vh;
   background-color: aqua;
   font-family: "JetBrains Mono", monospace;
   background-color: antiquewhite;
@@ -39,11 +39,12 @@
 
 form {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 15px;
   justify-content: center;
   align-items: center;
 }
+
 a {
   padding: 5px;
   padding-top: 15px;
@@ -53,16 +54,36 @@ a {
 .main {
   display: flex;
   width: 100vw;
-  height: 150vh;
+  height: 95vh;
 
   background-image: url(./components/fondo.jpg);
 }
 .footer {
+  justify-content: center;
+  align-items: center;
+  background-color: #187f30;
   display: flex;
+  gap: 20px;
   width: 100vw;
-  height: 40vh;
-  padding-top: 250px;
-  padding-right: 1600px;
+  height: 10vh;
+  padding-top: 10px;
+  padding-right: 50px;
+  background-image: linear-gradient(
+    to right top,
+    #6bd184,
+    #5ec672,
+    #52bb60,
+    #45b04d,
+    #39a53a,
+    #329e33,
+    #2a972c,
+    #219024,
+    #1d8a29,
+    #1a852d,
+    #187f30,
+    #177933)
+  
+ 
 }
 a {
   cursor: pointer;
@@ -72,7 +93,7 @@ a {
 .formulariocli {
   margin-top: 250px;
   gap: 5px;
-  width: 50vw;
+  width: 30vw;
   height: 40vh;
   justify-content: center;
   align-items: center;
@@ -83,7 +104,7 @@ a {
 .formulariopro {
   margin-top: 250px;
   gap: 5px;
-  width: 50vw;
+  width: 30vw;
   height: 40vh;
   justify-content: center;
   align-items: center;
@@ -101,7 +122,7 @@ a {
 .formularioprove {
   margin-top: 250px;
   gap: 5px;
-  width: 50vw;
+  width: 30vw;
   height: 40vh;
   justify-content: center;
   align-items: center;

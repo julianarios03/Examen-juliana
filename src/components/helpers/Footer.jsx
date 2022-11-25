@@ -1,12 +1,15 @@
+import{FaWhatsapp} from "react-icons/fa"
+import{FaInstagram} from "react-icons/fa"
+import{FaFacebook} from "react-icons/fa"
+
+
 const Footer =()=>{
 return(
 
 <footer className="footer">
-<form className="form" action="">   
-<input disabled type="text" placeholder ="Instagram"/>
-<input disabled type="text" placeholder="Facebook"/>
-<input disabled type="text" placeholder="What'sApp"/>
-</form>
+<FaWhatsapp style={{color: 'black', fontSize: '80px'}} />
+<FaInstagram style={{color: 'black', fontSize: '80px'}} />
+<FaFacebook style={{color: 'black', fontSize: '80px'}}  />
 </footer>
 
 );
